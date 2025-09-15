@@ -225,8 +225,8 @@ ibmcloud ce application logs --name prodlist
 
 * Smoke tests:
 
-  * `curl http://<prodlist-url>/products` → returned product list (HTTP 200).
-  * `curl http://<dealerdetails-url>/prices?product_id=<id>` → returned dealer price list (HTTP 200).
+  * `curl http://[<prodlist-url>](https://prodlist.20cyx0jkjm78.us-south.codeengine.appdomain.cloud)/products` → returned product list (HTTP 200).
+  * `curl http://[<dealerdetails-url>](https://dealerdetails.20cyx0jkjm78.us-south.codeengine.appdomain.cloud)/prices?product_id=<id>` → returned dealer price list (HTTP 200).
 * End-to-end UI tests:
 
   * Manual interaction using the deployed frontend validated rendering & UX.
